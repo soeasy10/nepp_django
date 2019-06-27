@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    print("111")
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'autoblur.settings')
     try:
         from django.core.management import execute_from_command_line
@@ -17,5 +18,7 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#    main()
+
+main()

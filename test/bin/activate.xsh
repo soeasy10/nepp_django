@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/bakseo3060/Desktop/nepp/nepp_django/test"
+$VIRTUAL_ENV = r"/Users/bakseo3060/Desktop/nepp_git/test"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

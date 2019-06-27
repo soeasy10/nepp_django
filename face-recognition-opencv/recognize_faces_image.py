@@ -78,7 +78,7 @@ for ((top, right, bottom, left), name) in zip(boxes, names):
 		image_gaussian = image #원본파일복사
 		image_gaussian[top:top+sub_face1.shape[0], left:left+sub_face1.shape[1]] = sub_face1 #가우시안블러처리부분 합치기
 		
-cv2.imwrite('/Users/bakseo3060/Desktop/nepp/nepp_django/input/Autoblur_gaussian.jpeg', image_gaussian)
+cv2.imwrite('/Users/bakseo3060/Desktop/nepp_git/input/Autoblur_gaussian.jpeg', image_gaussian)
 
 
 for ((top, right, bottom, left), name) in zip(boxes, names):
@@ -91,6 +91,6 @@ for ((top, right, bottom, left), name) in zip(boxes, names):
 		image_mosaic = image #원본파일복사
 		image_mosaic[top:bottom, left:right] = sub_face2 # 모자이크블러처리부분 합치기
 
-cv2.imwrite('/Users/bakseo3060/Desktop/nepp/nepp_django/input/Autoblur_mosaic.jpeg', image_mosaic)
+cv2.imwrite('/Users/bakseo3060/Desktop/nepp_git/input/Autoblur_mosaic.jpeg', image_mosaic)
 print("FINISH")
 cv2.waitKey(0)

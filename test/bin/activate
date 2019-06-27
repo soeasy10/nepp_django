@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/bakseo3060/Desktop/nepp/nepp_django/test"
+VIRTUAL_ENV="/Users/bakseo3060/Desktop/nepp_git/test"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

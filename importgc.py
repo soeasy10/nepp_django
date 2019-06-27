@@ -14,5 +14,5 @@ def upload_blob(bucket_name, source_file_name, destination_blob_name):
         source_file_name,
         destination_blob_name))
 #text 파일로 올리는 것으로 수정해야함!
-upload_blob('nepp-577ae.appspot.com', '/Users/bakseo3060/Desktop/nepp/nepp_django/input/Autoblur_gaussian.jpeg', 'Autoblur_gaussian.jpeg')
-upload_blob('nepp-577ae.appspot.com', '/Users/bakseo3060/Desktop/nepp/nepp_django/input/Autoblur_mosaic.jpeg', 'Autoblur_mosaic.jpeg')
+upload_blob('gs://nepp-577ae.appspot.com', '/Users/bakseo3060/Desktop/nepp_git/input/Autoblur_gaussian.jpeg', 'Autoblur_gaussian.jpeg')
+upload_blob('gs://nepp-577ae.appspot.com', '/Users/bakseo3060/Desktop/nepp_git/input/Autoblur_mosaic.jpeg', 'Autoblur_mosaic.jpeg')

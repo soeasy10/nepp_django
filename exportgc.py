@@ -12,4 +12,4 @@ def download_blob(bucket_name, source_blob_name, destination_file_name):
         source_blob_name,
         destination_file_name))
 
-download_blob('nepp-577ae.appspot.com/Changsung', '01.png', '/Users/bakseo3060/Desktop/nepp/nepp_django/output/01.png')
+download_blob('gs://nepp-577ae.appspot.com', '01.png', '/Users/bakseo3060/Desktop/nepp_git/output/01.png')
